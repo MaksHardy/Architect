@@ -1,0 +1,124 @@
+.top {
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1900px;
+    height: 68px;
+    background-color: #1d2124;
+    color: #FFF;
+    font-size: 0;
+    &__left {
+        padding-top: 17px;
+        box-sizing: border-box;
+        text-align: center;
+        display: inline-block;
+        width: 45px;
+        margin-left: 15px;
+    }
+    &__gamb-menu {
+        font-size: 20px;
+        color: #f8f8f8;
+    }
+    &__menu {
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0;
+    }
+    &__gamb-menu:hover {
+        color: #169cb4;
+    }
+    &__right {
+        width: 45px;
+        margin-right: 15px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: right;
+        padding-top: 20px;
+    }
+    &__search {
+        color: #ffffff;
+        &:hover {
+            color: #169cb4;
+        }
+    }
+}
+
+.header {
+    display: inline-block;
+    width: 1200px;
+}
+
+.logo {
+    display: inline-block;
+    &__svg {
+        vertical-align: middle;
+        width: 27px;
+        height: 27px;
+    }
+    &__text {
+        vertical-align: middle;
+        display: inline-block;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 22px;
+        font-weight: 700;
+        margin-left: 18px;
+    }
+    &__link:hover &__text {
+        color: #169cb4;
+    }
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    &__list {
+        display: inline-block;
+        list-style-type: none;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 18px 0;
+    }
+    &__link {
+        color: #ffffff;
+        &:hover {
+            color: #169cb4;
+        }
+    }
+}
+
+.social-butt {
+    display: inline-block;
+    &__ul {
+        display: inline-block;
+        margin-left: 19px;
+    }
+    &__list {
+        vertical-align: middle;
+        list-style-type: none;
+        display: inline-block;
+        font-size: 20px;
+        margin-left: 14px;
+        text-align: right;
+    }
+    &__link {
+        &--twit {
+            color: #00acee;
+        }
+        &--faceb {
+            color: #5d7ab6;
+        }
+        &--google {
+            color: #ed7364;
+        }
+    }
+    &__list:hover {
+        font-size: 25px;
+    }
+}

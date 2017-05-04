@@ -1,3 +1,4 @@
+transition: all .1s ease-in;
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400i,600,700");
 @font-face {
   font-family: 'Helvetica Neue';
@@ -5,4 +6,4 @@
   font-weight: medium; }
 
 * {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Helvetica Neue'; }
