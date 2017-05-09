@@ -1,15 +1,13 @@
-.hero	{
-	width: 100%;
-	max-width: 1900px;
-	&__big-slider {
-			background-image: url(../../image/rectangle-5.png);
-			height: 280px;
-
-	}
-	&__small-slider {
-		width: 100%;
-		max-width: 1900px;
-		height: 100px;
-		background-color: red;
-	}
+.hero {
+    width: 100%;
+    max-width: 1900px;
+    &__big-slider {
+        background-image: url(../../image/rectangle-5.png);
+        height: 280px;
+        width: auto;
+    }
+    &__small-slider {
+        width: 100%;
+        max-width: 1900px;
+    }
 }
