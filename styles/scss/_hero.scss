@@ -1,0 +1,19 @@
+.hero {
+    width: 100%;
+    max-width: 1900px;
+    &__big-slider {
+        background-image: url(../../image/rectangle-5.png);
+        height: 280px;
+        width: auto;
+    }
+    &__big-slider-wrap {
+    	width: 300px;
+    	height: 100px;
+    	margin: auto;
+    	padding-top: 30px;
+    }
+    &__small-slider {
+        width: 100%;
+        max-width: 1900px;
+    }
+}

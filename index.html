@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <title>Architect</title>
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/css/_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="styles/css/styles.css">
     <link rel="icon" href="image/favicon.png" type="image/x-icon" />
+    <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
-<!-- SECTION TOP -->
+    <!-- SECTION TOP -->
     <section class="top">
         <div class="top__left">
             <a class="top__gamb-menu" href="#"><i class="fa fa-bars" aria-hidden="true"></i>
-		<h3 class="top__menu">Menu</h3>
-    	</a>
+        <h3 class="top__menu">Menu</h3>
+        </a>
         </div>
         <header class="header">
             <div class="logo">
@@ -37,10 +39,10 @@
                 </ul>
             </nav>
             <nav class="social-butt">
-            <ul class="social-butt__ul">
-                <li class="social-butt__list"><a class="social-butt__link--twit" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-butt__list"><a class="social-butt__link--faceb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-butt__list"><a class="social-butt__link--google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <ul class="social-butt__ul">
+                    <li class="social-butt__list"><a class="social-butt__link--twit" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-butt__list"><a class="social-butt__link--faceb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-butt__list"><a class="social-butt__link--google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -50,9 +52,553 @@
     </section>
     <!-- SECTION HERO -->
     <section class="hero">
-    	
+        <div class="hero__big-slider">
+            <div class="hero__big-slider-wrap">
+                <img src="image/rectangle-4-0.png">
+                <img src="image/rectangle-4-1.png">
+                <img src="image/rectangle-4-2.png">
+                <img src="image/rectangle-4-3.png">
+                <img src="image/rectangle-4-4.png">
+                <img src="image/rectangle-4-5.png">
+            </div>
+        </div>
+        <div class="hero__small-slider">
+            <img src="image/rectangle-4-0.png">
+            <img src="image/rectangle-4-1.png">
+            <img src="image/rectangle-4-2.png">
+            <img src="image/rectangle-4-3.png">
+            <img src="image/rectangle-4-4.png">
+            <img src="image/rectangle-4-5.png">
+        </div>
     </section>
+    <!-- SECTION MAIN -->
+    <section class="main-section">
+        <div class="main-section__top">
+            <div class="main-section__block"></div>
+        </div>
+        <div class="grid">
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-1.png" alt="">
+                    <h2 class="art__h2">Vanglo House By LWPAC in Canda</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks, concrete, or sometimes sand and soil and It is a great way to decorate your outdoor</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-2.png" alt="">
+                    <h2 class="art__h2">Vanglo House By LWPAC in Canda</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <h3 class="art__h3">THIS WEEKS COLLECTION</h3>
+                    <div class="art__row-2">
+                        <a class="art__fancy-link" href="image/art-img-6.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover">
+                                    <div class="art__block-rect">
+                                        <p class="art__block-icon"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-1.png">
+                            </div>
+                        </a>
+                        <a class="art__fancy-link" href="image/art-img-6.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover">
+                                    <div class="art__block-rect">
+                                        <p class="art__block-icon"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-1.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="art__row-3">
+                        <a class="art__fancy-link" href="image/rectangle-4-1.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-3.png">
+                            </div>
+                        </a>
+                        <a class="art__fancy-link" href="image/rectangle-4-2.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-4.png">
+                            </div>
+                        </a>
+                        <a class="art__fancy-link" href="image/art-img-3.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-5.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="art__row-3">
+                        <a class="art__fancy-link" href="image/rectangle-4-0.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-6.png">
+                            </div>
+                        </a>
+                        <a class="art__fancy-link" href="image/art-img-8.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-7.png">
+                            </div>
+                        </a>
+                        <a class="art__fancy-link" href="image/rectangle-4-3.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-8.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="art__row-3">
+                        <a class="art__fancy-link" href="image/art-img-1.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-9.png">
+                            </div>
+                        </a>
+                        <a class="art__fancy-link" href="image/rectangle-4-4.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-10.png">
+                            </div>
+                        </a>
+                        <a class="art__fancy-link" href="image/rectangle-4-5.png" data-fancybox="Gallary">
+                            <div class="art__block">
+                                <div class="art__block-hover ">
+                                    <div class="art__block-rect art__block-rect--small">
+                                        <p class="art__block-icon art__block-icon--small"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                                <img src="image/image-11.png">
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-3.png" alt="">
+                    <h2 class="art__h2">Vanglo House By LWPAC in Canda</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks, concrete, or sometimes sand and soil and It is a great way to decorate your outdooron Ideas for Outdoors A Gabion is a cage box or cylinder</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-4.png" alt="">
+                    <h2 class="art__h2">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-5.png" alt="">
+                    <h2 class="art__h2">Vanglo House By LWPAC in Canda</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-6.png" alt="">
+                    <h2 class="art__h2">Vanglo House By LWPAC in Canda</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks, concrete, or sometimes sand and soil and It is a great way to decorate your outdoor</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-7.png" alt="">
+                    <h2 class="art__h2">Vanglo House By LWPAC in Canda</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks, concrete, or sometimes sand and soil and It is a great way to decorate your outdoor</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="grid-item">
+                <article class="art">
+                    <img class="art__img" src="image/art-img-8.png" alt="">
+                    <h2 class="art__h2">Vanglo House By LWPAC in Canda</h2>
+                    <p class="art__text">Amazing Gabion Ideas for Outdoors A Gabion is a cage box or cylinder filled with rocks, concrete, or sometimes sand and soil and It is a great way to decorate your outdoor</p>
+                    <div class="art__soc-butt-wrap">
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">21</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">37</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-but">
+                            <a class="soc-but__link" href="#">
+                                <div class="soc-but__left-wrap soc-but__left-wrap--pint">
+                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                </div>
+                                <div class="soc-but__right-wrap">
+                                    <p class="soc-but__count-number">22</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <script src="https://use.fontawesome.com/47c54b3ca0.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/masonry.pkgd.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/main.js"></script>
 </body>
-<script src="https://use.fontawesome.com/47c54b3ca0.js"></script>
 
 </html>
